@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="/CSS/adminpages/admin_dashboard.css">
+    <script src="/JS/adminpages/admin_dashboard.js" defer></script>
+</head>
+<body>
+    <body>
+        <div class="container">
+            <div class="sidebar">
+                <div class="sidebar-header">
+                    <h3>Admin</h3>
+                </div>
+                <ul class="sidebar-menu">
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Buyer Data</a></li>
+                    <li><a href="#">Seller Data</a></li>
+                    <li><a href="#">Crops Data</a></li>
+                    <li><a href="#">Sold Crops</a></li>
+                    <li><a href="#">Complaint Data</a></li>
+                    <li><a href="" id="admin_logout" >Logout</a></li>
+                </ul>
+            </div>
+            
+            <div class="main-content">
+                <h1>Welcome to Admin Dashboard</h1> 
+                <h1 id="tableHeading"></h1>
+                <div id="dashboardCards"></div> <!-- Added container for dashboard cards -->
+                <div id="tableContainer"></div>
+            </div>
+        </div>
+</body>
+</html>
